@@ -27,7 +27,7 @@ let src = [
 if (getScreenWidth < 768) {
   for (let x = 0; x < 8; x++) {
     getImages = document.getElementsByClassName("width-screen")[x];
-    getImages.setAttribute("src", `/images/mobile/${src[x]}`);
+    getImages.setAttribute("src", `../images/mobile/${src[x]}`);
   }
   // add Button
   let createButton = document.createElement("button");
